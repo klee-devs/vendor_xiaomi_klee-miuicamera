@@ -679,24 +679,6 @@ prebuilt_etc_xml {
     soc_specific: true,
 }
 
-prebuilt_etc {
-    name: "72.png",
-    owner: "xiaomi",
-    src: "proprietary/odm/etc/camera/72.png",
-    filename_from_src: true,
-    sub_dir: "camera",
-    device_specific: true,
-}
-
-prebuilt_etc {
-    name: "73.png",
-    owner: "xiaomi",
-    src: "proprietary/odm/etc/camera/73.png",
-    filename_from_src: true,
-    sub_dir: "camera",
-    device_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "vendor.xiaomi.hardware.misys.core-service",
     owner: "xiaomi",

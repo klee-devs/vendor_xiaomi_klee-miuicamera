@@ -64,6 +64,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/164_fc400.png:$(TARGET_COPY_OUT_ODM)/etc/camera/164_fc400.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/165_c_50d.png:$(TARGET_COPY_OUT_ODM)/etc/camera/165_c_50d.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/166_revert.png:$(TARGET_COPY_OUT_ODM)/etc/camera/166_revert.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/72.png:$(TARGET_COPY_OUT_ODM)/etc/camera/72.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/73.png:$(TARGET_COPY_OUT_ODM)/etc/camera/73.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/buling_1s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/buling_1s.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/buling_2s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/buling_2s.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/buling_3s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/buling_3s.png \
@@ -89,6 +91,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/heart_5s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/heart_5s.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/heart_6s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/heart_6s.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/AIGesture/thumbup_3s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/thumbup_3s.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/lut_l_brs.png:$(TARGET_COPY_OUT_ODM)/etc/camera/lut_l_brs.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/lut_l_chr.png:$(TARGET_COPY_OUT_ODM)/etc/camera/lut_l_chr.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/lut_l_cls.png:$(TARGET_COPY_OUT_ODM)/etc/camera/lut_l_cls.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/lut_l_cnt.png:$(TARGET_COPY_OUT_ODM)/etc/camera/lut_l_cnt.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/lut_l_etn.png:$(TARGET_COPY_OUT_ODM)/etc/camera/lut_l_etn.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/lut_l_ia.png:$(TARGET_COPY_OUT_ODM)/etc/camera/lut_l_ia.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/lut_l_tel.png:$(TARGET_COPY_OUT_ODM)/etc/camera/lut_l_tel.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/lut_normal_blue.png:$(TARGET_COPY_OUT_ODM)/etc/camera/lut_normal_blue.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/lut_normal_bright.png:$(TARGET_COPY_OUT_ODM)/etc/camera/lut_normal_bright.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/lut_normal_dark.png:$(TARGET_COPY_OUT_ODM)/etc/camera/lut_normal_dark.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/lut_normal_dark_high.png:$(TARGET_COPY_OUT_ODM)/etc/camera/lut_normal_dark_high.png \
+    vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/lut_normal_natural.png:$(TARGET_COPY_OUT_ODM)/etc/camera/lut_normal_natural.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/videofilter/102_SummerDay.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/102_SummerDay.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/videofilter/103_Fantasy.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/103_Fantasy.png \
     vendor/xiaomi/klee-miuicamera/proprietary/odm/etc/camera/videofilter/104_Meet.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/104_Meet.png \
@@ -302,7 +316,5 @@ PRODUCT_PACKAGES += \
     manifest_mtkblackbox.xml \
     vendor.xiaomi.hardware.misys.common.xml \
     vendor.xiaomi.hardware.misys.core.xml \
-    72.png \
-    73.png \
     vendor.xiaomi.hardware.misys.core-service \
     hypsys_vendor
